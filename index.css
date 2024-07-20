@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body{
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+
+  font-family: Inter;
+  color:  hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 8%);
+
+}
+
+.social--container{
+  width: 475px;
+  height: 720px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding-top: 45px;
+
+
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+
+#profile--img{
+  width: 110px;
+  border-radius: 50%;
+}
+
+.jessica--name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.jessica--name span{
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 18px;
+  gap: 0;
+}
+
+.jessica--tagline{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.jessica--buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.jessica--buttons button{
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 18px;
+
+  padding: 18px 120px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.jessica--buttons button:hover{
+  color: hsl(0, 0%, 12%);
+  background-color:hsl(75, 94%, 57%);
+}
+
+@media (max-width: 576px){
+  .social--container{
+    width: 450px;
+  }
+}
